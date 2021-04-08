@@ -4,6 +4,7 @@ h1,p{
  }
 #header_name{
     padding-top: 5%;
+    padding-bottom: 5%;
     padding-left: 3%;
     color: white;
     font-weight: bold;
@@ -31,7 +32,6 @@ body{
 }
 #body {
 
-    color: aqua;
     background-color: white;
 }
 #header_down {
@@ -42,3 +42,55 @@ body{
 #image_div{
     margin: auto;
 }
+
+.front_page_background_1{
+    background-color: rgb(63, 62, 62);
+    color: white;
+    padding: 5em;
+    padding-left: 7em;
+    padding-right: 7em;
+    height: auto;
+    vertical-align: middle;
+}
+.front_page_background_2{
+    background-color: white;
+    padding: 5em;
+    padding-left: 7em;
+    padding-right: 7em;
+    height: auto;
+}
+.front_page_background_2_text{
+    font-size: 1.5em;
+}
+.front_page_background_1_text{
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:black;
+    overflow: hidden;
+    align-content: center;
+    width: fit-content;
+  }
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+
+    color: rgb(202, 201, 120);
+}
+  
