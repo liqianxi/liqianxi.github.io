@@ -26,15 +26,69 @@
             </div>
 
             <div id="body">
-                <div id="image_div">
-                    <img src="qianxi.jpeg" alt="qianxi.jpeg" style="width:353px;height:353px;border-radius: 50%;display: block;margin-left: auto;margin-right: auto;margin-top: 5em;margin-bottom: 5em;">
+                <div style="padding-top: 5em;padding-bottom: 5em;">
+                    <div id="image_div">
+                        <img src="qianxi.jpeg" alt="qianxi.jpeg" style="width:353px;height:353px;border-radius: 50%;display: block;margin-left: auto;margin-right: auto;">
 
+                    </div>
+                    <p id="intro_text" class="front_page_background_1_text" style="margin-top: 3em;">Qianxi Li<br>Fourth year Bachelor Science in Computing Science Honour student<br>University of Alberta, Edmonton</p>
                 </div>
                 <div id="front_page_intro_text" class="front_page_background_1">
-                    <p id="intro_text" class="front_page_background_1_text">Qianxi Li<br>Fourth year Bachelor Science in Computing Science Honour student<br>University of Alberta, Edmonton</p>
+                    <div>
+                        <p class="frontpage_subtitle">About me</p>
+                        
+                        <p class="frontpage_text">I'm an interesting man, efficient team leader and AI enthusiast. I love programming and enjoy solving challenging problems. I'm also a video content creator and photographer ever since 2014. </p>
+                        
+
+                    </div>
+                    <div>
+                        <div></div>
+                        <div></div>
+                    </div>
                 </div>
                 <div class="front_page_background_2">
-                    <p class="front_page_background_2_text">1232112</p>
+                    
+                    <div>
+                    
+                        <p class="frontpage_subtitle_type_2">My skillset</p>
+                        
+                        <div style="width: 75%;margin-left: auto;margin-right: auto;">
+
+                            <ul class="cloud" id="interest_cloud" >
+                                <li>RISC-V</li>
+                                <li>C</li>
+                                <li>CSS</li>
+                                <li>HTML</li>
+                                <li>Java</li>
+                                <li>Javascript</li>
+                                <li>Python</li>
+                                <li>SQL</li>
+                                <li>Android Development</li>
+                                <li>Web development</li>
+                                <li>Machine Learning</li>
+                                <li>Data Visualization</li>
+                                <li>Computer Vision</li>
+
+                            </ul>
+                            <script>
+                                var cold_array = ["#272643","#7ecfd4","#99fadc","#1184e8","#2c698d"]
+                                let array = document.getElementById("interest_cloud").getElementsByTagName("li");
+                                for(i of array){
+                                    //let text = i.text;
+                                    let text = i.innerText;
+                                    let mod = 3 - text.length % 4;
+                                    let random_Num = Math.floor(mod+Math.random() * 4); 
+                                    i.style.fontSize = random_Num+"em";
+                                    i.style.color = cold_array[Math.floor(Math.random()*cold_array.length)];
+                                    
+                                }
+
+                            </script>
+                        </div>
+                        
+
+
+                    </div>
                 </div>
                 <div class="front_page_background_1">
                     <p class="front_page_background_1_text">323213213</p>

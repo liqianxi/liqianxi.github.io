@@ -13,6 +13,7 @@ h1,p{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 body{
+    margin-top: 0em;
     margin: 0px;
     padding: 0px;
 }
@@ -21,7 +22,7 @@ body{
     padding: 0px;
 }
 #header{
-
+    margin: 0px;
     color: white;
     background-color: black;
 }
@@ -94,3 +95,30 @@ body{
     color: rgb(202, 201, 120);
 }
   
+.frontpage_subtitle{
+    font-size: 3em;
+    color: white;
+}
+.frontpage_subtitle_type_2{
+    font-size: 3em;
+    color: black;
+    text-align: center;
+}
+.frontpage_text{
+    margin-top: 1em;
+    font-size: 2em;
+}
+#interest_cloud{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.5rem;
+}
+ul.cloud li {
+    margin:auto;
+    margin-top: 20px;
+
+}
