@@ -122,3 +122,8 @@ ul.cloud li {
     margin-top: 20px;
 
 }
+#experience_list{
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.5em;
+}
