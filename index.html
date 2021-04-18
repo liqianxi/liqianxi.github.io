@@ -28,7 +28,7 @@
             <div id="body">
                 <div style="padding-top: 5em;padding-bottom: 5em;">
                     <div id="image_div">
-                        <img src="qianxi.jpeg" alt="qianxi.jpeg" style="width:353px;height:353px;border-radius: 50%;display: block;margin-left: auto;margin-right: auto;">
+                        <img src="source/qianxi.jpeg" alt="qianxi.jpeg" style="width:353px;height:353px;border-radius: 50%;display: block;margin-left: auto;margin-right: auto;">
 
                     </div>
                     <p id="intro_text" class="front_page_background_1_text" style="margin-top: 3em;">Qianxi Li<br>Fourth year Bachelor Science in Computing Science Honour student<br>University of Alberta, Edmonton</p>
@@ -51,7 +51,10 @@
                     <div>
                     
                         <p class="frontpage_subtitle_type_2">My skillset</p>
-                        
+                        <br>
+                        <br>
+                        <br>
+                        <br>
                         <div style="width: 75%;margin-left: auto;margin-right: auto;">
 
                             <ul class="cloud" id="interest_cloud" >
@@ -117,6 +120,7 @@
 
                             </li>
                         </ul>
+                        <br>
                         <li>Education</li>
                         <ul>
                             
@@ -127,16 +131,23 @@
                                 </ul>
                             </li>
                         </ul>
+                        <br>
                         <li>Awards</li>
                         <ul>
                             <li>2018/09-Present International Student Scholarship</li>
                             <li>2019/08-Present Dean’s List</li>
                             <li>2020/08-Undergraduate Scholarship (Superior Academic Achievement)</li>
                         </ul>
+                        <br>
                         <li>Certifications</li>
                         <ul>
                             <li>Machine Learning – Coursera</li>
-                            <li>Deep Learning Specialization – Coursera</li>
+                            <li>Microsoft Azure:Web Development Workshop 102 Module 1 – Microsoft Student Partners | CEE</li>
+                            <li><a href=https://www.coursera.org/account/accomplishments/specialization/certificate/EH3VA9UHDWUE>Deep Learning Specialization</a> – Coursera</li>
+                            <li><a href=https://www.coursera.org/account/accomplishments/certificate/E9X9587AQETM>Natural Language Processing with Classification and Vector Spaces</a> – Coursera</li>
+                            <li><a href=https://www.coursera.org/account/accomplishments/certificate/43QW2MDPPWJY>Technical Support Fundamentals</a> – Coursera</li>
+                            <li><a href=https://www.coursera.org/account/accomplishments/certificate/5JL2SRAY7A59>The Bits and Bytes of Computer Networking</a> – Coursera</li>
+                            <li><a href=https://www.coursera.org/account/accomplishments/certificate/Y68FWKBUTHT2>Sequence Models</a> – Coursera</li>
 
                         </ul>
                     </ul>
@@ -145,8 +156,82 @@
                     <p class="frontpage_subtitle_type_2">Volunteering</p>
 
                 </div>
-                <div>
-                    <p class="frontpage_subtitle">Volunteering</p>
+                <div class="front_page_background_2">
+                    <p class="frontpage_subtitle_type_2">Collection</p>
+                    <!-- Slideshow container -->
+                    <div class="slideshow-container" style="max-width: 1000px;position: relative;margin: auto;">
+                        <style>
+                            .text {
+                            color: #f2f2f2;
+                            font-size: 30px;
+                            padding: 8px 12px;
+                            position: absolute;
+                            bottom: 8px;
+                            width: 100%;
+                            text-align: center;
+                            }
+                        </style>
+                        
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 5</div>
+                                <img src="source/slideshow/1.jpg" style="width:100%">
+                            <div class="text">Campus Sunset</div>
+                        </div>
+                    
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 5</div>
+                                <img src="source/slideshow/2.jpg" style="width:100%">
+                            <div class="text">A Father and his Girl</div>
+                        </div>
+                    
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 5</div>
+                                <img src="source/slideshow/3.jpg" style="width:100%">
+                            <div class="text">Sunset at English Bay</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">4 / 5</div>
+                                <img src="source/slideshow/4.jpg" style="width:100%">
+                            <div class="text">Coal Harbour</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">5 / 5</div>
+                                <img src="source/slideshow/5.jpg" style="width:100%">
+                            <div class="text">Caption Five</div>
+                        </div>
+                        
+                    </div>
+                    <br>
+                    <p style="text-align: center;font-size: medium;">Credit: Qianxi Li</p>
+                    
+                    <script>
+                        // Next/previous controls
+                        function plusSlides(n) {
+                            showSlides(slideIndex += n);
+                        }
+
+                        // Thumbnail image controls
+                        function currentSlide(n) {
+                            showSlides(slideIndex = n);
+                        }
+                        var slideIndex = 0;
+                        showSlides();
+
+                        function showSlides() {
+                            var i;
+                            var slides = document.getElementsByClassName("mySlides");
+                            for (i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none";
+                            }
+                            slideIndex++;
+                            console.log("now display "+slideIndex)
+                            if (slideIndex > slides.length) {slideIndex = 1}
+                            slides[slideIndex-1].style.display = "block";
+                            setTimeout(showSlides, 5000); // Change image every 2 seconds
+                        }
+                    </script>
+
                     
                 </div>
                 <div class="front_page_background_2">
