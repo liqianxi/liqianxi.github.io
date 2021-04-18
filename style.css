@@ -89,11 +89,6 @@ body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-
-    color: rgb(202, 201, 120);
-}
   
 .frontpage_subtitle{
     font-size: 3em;
@@ -126,4 +121,27 @@ ul.cloud li {
     list-style: none;
     padding-left: 0;
     font-size: 1.5em;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited {
+color: white;
+background-color: transparent;
+text-decoration: none;
+}
+
+a:hover {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:active {
+color: yellow;
+background-color: transparent;
+text-decoration: underline;
 }
