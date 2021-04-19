@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+
+        <div id="root">
+            <div id="header">
+                <div id="header_up">
+                    <p id="header_name" ><span style="letter-spacing:0.3em;">Qianxi Li</span></p>
+                    
+
+                </div>
+                <div id="header_down">
+                    <div style="position: relative;margin: 0 auto;width: fit-content;">
+                        <div class="topnav">
+                            <a href="index.html">Home</a>
+                            <a href="collections.html">Collections</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="body">
+                <!-- Photo Grid -->
+                <style>
+                    * {
+                      box-sizing: border-box;
+                    }
+                    
+                    body {
+                      margin: 0;
+                      font-family: Arial;
+                    }
+
+                    img:hover{
+
+                        transition: transform .8s ease;
+                        transform: scale(1.1);
+                        
+                        
+                    }
+
+                    
+                    .row {
+                      display: -ms-flexbox; /* IE10 */
+                      display: flex;
+                      -ms-flex-wrap: wrap; /* IE10 */
+                      flex-wrap: wrap;
+                      padding: 0 4px;
+                    }
+                    
+                    /* Create four equal columns that sits next to each other */
+                    .column {
+                      -ms-flex: 33%; /* IE10 */
+                      flex: 33%;
+                      max-width: 33%;
+                      padding: 0 4px;
+                    }
+                    
+                    .column img {
+                      margin-top: 8px;
+                      vertical-align: middle;
+                      width: 100%;
+                    }
+                    
+                    /* Responsive layout - makes a two column-layout instead of four columns */
+                    @media screen and (max-width: 800px) {
+                      .column {
+                        -ms-flex: 50%;
+                        flex: 50%;
+                        max-width: 50%;
+                      }
+                    }
+                    
+                    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+                    @media screen and (max-width: 600px) {
+                      .column {
+                        -ms-flex: 100%;
+                        flex: 100%;
+                        max-width: 100%;
+                      }
+                    }
+                </style>
+                <div class="row"> 
+                    <div class="column">
+                        <img src="pictures/highschool.jpg" style="width:100%">
+                        <img src="pictures/13.jpg" style="width:100%">
+                        <img src="pictures/14.jpg" style="width:100%">
+                        
+                        <img src="pictures/rosedale.jpg" style="width:100%">
+                        <img src="pictures/tc4.jpeg" style="width:100%">
+
+                    </div>
+                    <div class="column">
+                        <img src="pictures/tom.jpg" style="width:100%">
+                        <img src="pictures/workout1.jpg" style="width:100%">
+                        <img src="pictures/workout2.jpg" style="width:100%">
+                        <img src="pictures/aurora.jpg" style="width:100%">
+                        <img src="pictures/12.jpg" style="width:100%">
+                        <img src="pictures/mainquad.jpg" style="width:100%">
+                        
+
+                    </div>  
+                    <div class="column">
+                        <img src="pictures/whyteave2.png" style="width:100%">
+                        <img src="pictures/sculpture.png" style="width:100%">
+                        <img src="pictures/benedict.jpg" style="width:100%">
+                        <img src="pictures/shanghai1.jpg" style="width:100%">
+                        <img src="pictures/alex.jpg" style="width:100%">
+                        <img src="pictures/shanghai2.jpg" style="width:100%">
+
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
