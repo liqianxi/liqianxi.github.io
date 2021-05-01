@@ -7,9 +7,93 @@
 
 
         <div id="root">
-            <div id="header">
-                <div id="header_up">
-                    <p id="header_name" ><span style="letter-spacing:0.3em;">Qianxi Li</span></p>
+            <div id="header" >
+                <script>
+                    onmousemove = function(e){
+                        var mouseX = e.clientX;
+                        var mouseY = e.clientY;
+
+                        //transform boat
+                        boat = document.getElementById('boat');
+                        boat.style.transform = "translate(" + (400+(0.15)*mouseX) + "px, 150px)";
+
+                        //transform sun
+                        document.getElementById('sun').style.transform = "translate(" + (500+(-0.01)*mouseX) + "px, "+(30+(0.01)*mouseX)+"px)";
+
+                        //transform background mountain
+                        document.getElementById('back_mountain').style.transform = "translate(" + ((-0.08)*mouseX) + "px, -50px)";
+
+                        //transform third mountain
+                        document.getElementById('third_mountain').style.transform = "translate(" + ((-0.12)*mouseX) + "px, 0px)";
+
+                        //transform second mountain
+                        document.getElementById('second_mountain').style.transform = "translate(" + (20+(-0.15)*mouseX) + "px, -80px)";
+
+                        //transform second mountain
+                        document.getElementById('front_mountain').style.transform = "translate(" + (-10+(-0.20)*mouseX) + "px, 40px)";
+                    
+                        //cloud1
+                        document.getElementById('cloud1').style.transform = "translate(" + (600+(-0.3)*mouseX) + "px, 80px)";
+
+                        //cloud2
+                        document.getElementById('cloud2').style.transform = "translate(" + (800+(0.27)*mouseX) + "px, 0px)";
+                        
+                        //cloud3
+                        document.getElementById('cloud3').style.transform = "translate(" + (700+(0.17)*mouseX) + "px, 90px)";
+                        
+                        //cloud4
+                        document.getElementById('cloud4').style.transform = "translate(" + (300+(0.13)*mouseX) + "px, -20px)";
+
+
+                    }
+
+                </script>
+                <div id="header_up" style="height:270px;width: 100vw;">
+                    <!--<p id="header_name" ><span style="letter-spacing:0.3em;">Qianxi Li</span></p>-->
+
+                    <div class="front_flag_div">
+                        <img id="back_mountain" class="front_flag" src="source/front_page_header/background_mountain.png" style="height:250px;width:1800px;transform:translate(0px, -50px); position: relative;opacity: 1;object-fit:cover;overflow: hidden;">
+
+                    </div>
+                    <div class="front_flag_div2">
+                        <img id="sun" class="front_flag" src="source/front_page_header/sun.png" style="height:40px;width:40px;transform:translate(500px,30px); position: relative;opacity: 1;overflow: hidden;">
+                    </div>
+                    <div class="front_flag_div2" style="position: absolute;">
+                        <img id="cloud4" class="front_flag" src="source/front_page_header/cloud4.png" style="height:80px;width:500px;transform:translate(300px,-20px); position: relative;opacity: 0.4;overflow: hidden;">
+                    </div>
+
+                    <div class="front_flag_div" >
+                        <img id="third_mountain" class="front_flag" src="source/front_page_header/third_mountain.png" style="height:250px;width:1800px;transform:translate(0px, 0px); position: relative;opacity: 1;object-fit:cover;overflow: hidden;">
+
+                    </div>
+
+
+                    <div class="front_flag_div">
+                        <img id="second_mountain" class="front_flag" src="source/front_page_header/second_mountain.png" style="height:250px;width:1800px;transform: translate(20px, -80px); position: relative;opacity: 1;object-fit:cover;overflow: hidden;">
+
+                    </div>
+                    <div class="front_flag_div2" style="position: absolute;">
+                        <img id="cloud2" class="front_flag" src="source/front_page_header/cloud2.png" style="height:120px;width:600px;transform:translate(800px,0px); position: relative;opacity: 0.4;overflow: hidden;">
+                    </div>
+
+
+                    <div class="front_flag_div" >
+                        <img id="front_mountain" class="front_flag" src="source/front_page_header/front_mountain.png" style="height:250px;width:1800px;transform:translate(-10px,40px); position: relative;opacity: 1;object-fit:cover;overflow: hidden;">
+                    </div>
+                    <div class="front_flag_div2" style="position: absolute;">
+                        <img id="cloud1" class="front_flag" src="source/front_page_header/cloud1.png" style="height:80px;width:600px;transform:translate(600px,80px); position: relative;opacity: 0.3;overflow: hidden;">
+                    </div>
+                    <div class="front_flag_div2" style="position: absolute;">
+                        <img id="cloud3" class="front_flag" src="source/front_page_header/cloud3.png" style="height:80px;width:500px;transform:translate(700px,90px); position: relative;opacity: 0.3;overflow: hidden;">
+                    </div>
+
+
+
+                    <div class="front_flag_div2">
+                        <img id="boat" class="front_flag" src="source/front_page_header/boat.png" style="height:60px;width:100px;transform:translate(400px,150px); position: relative;opacity: 1;overflow: hidden;">
+                    </div>
+
+                    
                     
 
                 </div>

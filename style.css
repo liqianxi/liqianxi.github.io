@@ -179,3 +179,11 @@ to {opacity: 1}
 .volunteer_text_body{
     font-size: 1.5em;
 }
+
+.front_flag_div{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100vw;
+    overflow: hidden;
+}
