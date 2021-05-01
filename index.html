@@ -14,31 +14,35 @@
                         var mouseY = e.clientY;
 
                         //transform boat
-                        boat = document.getElementById('boat');
-                        boat.style.transform = "translate(" + (400+(0.15)*mouseX) + "px, 150px)";
+                        if(mouseY<=270){
+                            boat = document.getElementById('boat');
+                            boat.style.transform = "translate(" + (400+(0.15)*mouseX) + "px, 150px)";
 
-                        //transform sun
-                        document.getElementById('sun').style.transform = "translate(" + (500+(-0.01)*mouseX) + "px, "+(30+(0.01)*mouseX)+"px)";
+                            //transform sun
+                            document.getElementById('sun').style.transform = "translate(" + (500+(-0.01)*mouseX) + "px, "+(30+(0.01)*mouseX)+"px)";
 
-                        //transform background mountain
-                        document.getElementById('back_mountain').style.transform = "translate(" + ((-0.08)*mouseX) + "px, -50px)";
+                            //transform background mountain
+                            document.getElementById('back_mountain').style.transform = "translate(" + ((-0.08)*mouseX) + "px, -50px)";
 
-                        //transform third mountain
-                        document.getElementById('third_mountain').style.transform = "translate(" + ((-0.12)*mouseX) + "px, 0px)";
+                            //transform third mountain
+                            document.getElementById('third_mountain').style.transform = "translate(" + ((-0.12)*mouseX) + "px, 0px)";
 
-                        //transform second mountain
-                        document.getElementById('second_mountain').style.transform = "translate(" + (20+(-0.15)*mouseX) + "px, -80px)";
+                            //transform second mountain
+                            document.getElementById('second_mountain').style.transform = "translate(" + (20+(-0.15)*mouseX) + "px, -80px)";
 
-                        //transform second mountain
-                        document.getElementById('front_mountain').style.transform = "translate(" + (-10+(-0.20)*mouseX) + "px, 40px)";
-                    
-           
+                            //transform second mountain
+                            document.getElementById('front_mountain').style.transform = "translate(" + (-10+(-0.20)*mouseX) + "px, 40px)";
+                        
             
-                        
-        
-                        
-                        //cloud4
-                        document.getElementById('cloud4').style.transform = "translate(" + (300+(0.13)*mouseX) + "px, -20px)";
+                
+                            
+            
+                            
+                            //cloud4
+                            document.getElementById('cloud4').style.transform = "translate(" + (300+(0.13)*mouseX) + "px, -20px)";
+
+                        }
+
 
 
                     }
