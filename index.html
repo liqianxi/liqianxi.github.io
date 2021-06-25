@@ -8,89 +8,8 @@
 
         <div id="root">
             <div id="header" >
-                <script>
-                    onmousemove = function(e){
-                        var mouseX = e.clientX;
-                        var mouseY = e.clientY;
 
-                        //transform boat
-                        if(mouseY<=270){
-                            boat = document.getElementById('boat');
-                            boat.style.transform = "translate(" + (400+(0.15)*mouseX) + "px, 150px)";
-
-                            //transform sun
-                            document.getElementById('sun').style.transform = "translate(" + (500+(-0.01)*mouseX) + "px, "+(30+(0.01)*mouseX)+"px)";
-
-                            //transform background mountain
-                            document.getElementById('back_mountain').style.transform = "translate(" + ((-0.08)*mouseX) + "px, -50px)";
-
-                            //transform third mountain
-                            document.getElementById('third_mountain').style.transform = "translate(" + ((-0.12)*mouseX) + "px, 0px)";
-
-                            //transform second mountain
-                            document.getElementById('second_mountain').style.transform = "translate(" + (20+(-0.15)*mouseX) + "px, -80px)";
-
-                            //transform second mountain
-                            document.getElementById('front_mountain').style.transform = "translate(" + (-10+(-0.20)*mouseX) + "px, 40px)";
-                        
-            
-                
-                            
-                            //bird1
-                            document.getElementById('bird1').style.transform = "translate(" + (850 + (-0.27)*mouseX) + "px, " + (18 + Math.floor(Math.random() * 1) ) + "px)";
-                            
-                            //cloud4
-                            document.getElementById('cloud4').style.transform = "translate(" + (300+(0.13)*mouseX) + "px, -20px)";
-
-                        }
-
-
-
-                    }
-
-                </script>
-                <div id="header_up" style="height:270px;width: 100vw;">
-                    <!--<p id="header_name" ><span style="letter-spacing:0.3em;">Qianxi Li</span></p>-->
-
-                    <div class="front_flag_div">
-                        <img id="back_mountain" class="front_flag" src="source/front_page_header/background_mountain.png" style="height:250px;width:1800px;transform:translate(0px, -50px); position: relative;opacity: 1;object-fit:cover;overflow: hidden;">
-
-                    </div>
-                    <div class="front_flag_div2">
-                        <img id="sun" class="front_flag" src="source/front_page_header/sun.png" style="height:40px;width:40px;transform:translate(500px,30px); position: relative;opacity: 1;overflow: hidden;">
-                    </div>
-                    <div class="front_flag_div2" style="position: absolute;">
-                        <img id="bird1" class="front_flag" src="source/front_page_header/bird1.png" style="height:10px;width:10px;transform:translate(850px,40px); position: relative;opacity: 1;overflow: hidden;">
-                    </div>
-                    <div class="front_flag_div2" style="position: absolute;">
-                        <img id="cloud4" class="front_flag" src="source/front_page_header/cloud4.png" style="height:80px;width:500px;transform:translate(300px,-20px); position: relative;opacity: 0.6;overflow: hidden;">
-                    </div>
-
-
-                    <div class="front_flag_div" >
-                        <img id="third_mountain" class="front_flag" src="source/front_page_header/third_mountain.png" style="height:250px;width:1800px;transform:translate(0px, 0px); position: relative;opacity: 1;object-fit:cover;overflow: hidden;">
-
-                    </div>
-
-                    <div class="front_flag_div">
-                        <img id="second_mountain" class="front_flag" src="source/front_page_header/second_mountain.png" style="height:250px;width:1800px;transform: translate(20px, -80px); position: relative;opacity: 1;object-fit:cover;overflow: hidden;">
-
-                    </div>
-
-                    <div class="front_flag_div" >
-                        <img id="front_mountain" class="front_flag" src="source/front_page_header/front_mountain.png" style="height:250px;width:1800px;transform:translate(-10px,40px); position: relative;opacity: 1;object-fit:cover;overflow: hidden;">
-                    </div>
-
-
-
-                    <div class="front_flag_div2">
-                        <img id="boat" class="front_flag" src="source/front_page_header/boat.png" style="height:60px;width:100px;transform:translate(400px,150px); position: relative;opacity: 1;overflow: hidden;">
-                    </div>
-
-
-                    
-                    
-
+                <div id="header_up" style="height:270px;">
                 </div>
                 <div id="header_down">
                     <div style="position: relative;margin: 0 auto;width: fit-content;">
@@ -158,6 +77,16 @@
                                 <li>SPARQL</li>
                                 <li>RDF</li>
                                 <li>XQuery</li>
+                                <li>React.js</li>
+                                <li>Next.js</li>
+                                <li>GraphDB</li>
+                                <li>Elasticsearch</li>
+                                <li>Chrome Extension Development</li>
+                                <li>Docker</li>
+                                <li>NginX</li>
+                                <li>AWS</li>
+
+
                             </ul>
                             <script>
                                 var cold_array = ["#272643","#7ecfd4","#99fadc","#1184e8","#2c698d"]
@@ -224,7 +153,7 @@
                         <li>Awards</li>
                         <ul>
                             <li>2018/09-Present International Student Scholarship (Two times renewal)</li>
-                            <li>2019/08-Present <a href="https://drive.google.com/file/d/1zoIUVLjIb59ROBl-NOMsOxsD7mWXTP_g/view?usp=sharing">Dean’s List</a></li>
+                            <li>2019/08-Present <a href="https://drive.google.com/file/d/1zoIUVLjIb59ROBl-NOMsOxsD7mWXTP_g/view?usp=sharing">Dean’s List (Three times nominated)</a></li>
                             <li>2020/08-Undergraduate Scholarship (Superior Academic Achievement)</li>
                         </ul>
                         <br>
