@@ -218,89 +218,10 @@
                     </div>
 
                 </div>
+                
                 <div class="front_page_background_1">
-                    <p class="frontpage_subtitle">Brief Collection</p>
-                    <!-- Slideshow container -->
-                    <br>
-                    <div class="slideshow-container" style="max-width: 1200px;position: relative;margin: auto;">
-                        <style>
-                            .text {
-                            color: #f2f2f2;
-                            font-size: 30px;
-                            padding: 8px 12px;
-                            position: absolute;
-                            bottom: 8px;
-                            width: 100%;
-                            text-align: center;
-                            }
-                        </style>
-                        
-                        <!-- Full-width images with number and caption text -->
-                        
-                        <div class="mySlides fade">
-                            <div class="numbertext">1 / 5</div>
-                                <img src="source/slideshow/1.jpg" style="width:100%">
-                            <div class="text">Campus Sunset</div>
-                        </div>
-                    
-                        <div class="mySlides fade">
-                            <div class="numbertext">2 / 5</div>
-                                <img src="source/slideshow/2.jpg" style="width:100%">
-                            <div class="text">A Father and his Girl</div>
-                        </div>
-                    
-                        <div class="mySlides fade">
-                            <div class="numbertext">3 / 5</div>
-                                <img src="source/slideshow/3.jpg" style="width:100%">
-                            <div class="text">Sunset at English Bay</div>
-                        </div>
-                        <div class="mySlides fade">
-                            <div class="numbertext">4 / 5</div>
-                                <img src="source/slideshow/4.jpg" style="width:100%">
-                            <div class="text">Coal Harbour</div>
-                        </div>
-                        <div class="mySlides fade">
-                            <div class="numbertext">5 / 5</div>
-                                <img src="source/slideshow/5.jpg" style="width:100%">
-                            <div class="text">Chiliwack</div>
-                        </div>
-                        
-                    </div>
-
-                    <p style="text-align: center;font-size: medium;">Credit: Qianxi Li</p>
-                    
-                    <script>
-                        // Next/previous controls
-                        function plusSlides(n) {
-                            showSlides(slideIndex += n);
-                        }
-
-                        // Thumbnail image controls
-                        function currentSlide(n) {
-                            showSlides(slideIndex = n);
-                        }
-                        var slideIndex = 0;
-                        showSlides();
-
-                        function showSlides() {
-                            var i;
-                            var slides = document.getElementsByClassName("mySlides");
-                            for (i = 0; i < slides.length; i++) {
-                                slides[i].style.display = "none";
-                            }
-                            slideIndex++;
-                            console.log("now display "+slideIndex)
-                            if (slideIndex > slides.length) {slideIndex = 1}
-                            slides[slideIndex-1].style.display = "block";
-                            setTimeout(showSlides, 5000); // Change image every 2 seconds
-                        }
-                    </script>
-
-                    
-                </div>
-                <div class="front_page_background_2">
                     <div >
-                        <p class="frontpage_subtitle_type_2">Github Activity</p>
+                        <p class="frontpage_subtitle_type_1">Github Activity</p>
 
                         <script
                             src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
