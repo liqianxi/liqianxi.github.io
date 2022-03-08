@@ -24,28 +24,28 @@ body{
 #header{
     margin: 0px;
     color: white;
-    background-color: black;
+    background-color: #4e606c;
 }
 #header_up {
 
     color: aqua;
-    background-color: black;
+    background-color: #054f74;
 }
 #body {
 
-    background-color: white;
+    background-color: #cde2e9;
 }
 #header_down {
 
     color: aqua;
-    background-color: black;
+    background-color: #054f74;
 }
 #image_div{
     margin: auto;
 }
 
 .front_page_background_1{
-    background-color: rgb(63, 62, 62);
+    background-color: #054f74;
     color: white;
     padding: 5em;
     padding-left: 7em;
@@ -54,7 +54,7 @@ body{
     vertical-align: middle;
 }
 .front_page_background_2{
-    background-color: white;
+    background-color: #cde2e9;
     padding: 5em;
     padding-left: 7em;
     padding-right: 7em;
@@ -62,17 +62,23 @@ body{
 }
 .front_page_background_2_text{
     font-size: 1.5em;
+    color: #054f74;
 }
 .front_page_background_1_text{
+    color: #054f74;
     font-size: 1.5em;
     text-align: center;
     vertical-align: middle;
     
 }
 
+.org_title{
+    color: #054f74; 
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color:black;
+    background-color:#054f74;
     overflow: hidden;
     align-content: center;
     width: fit-content;
@@ -96,7 +102,7 @@ body{
 }
 .frontpage_subtitle_type_2{
     font-size: 3em;
-    color: black;
+    color: #054f74;
     text-align: left;
 }
 .frontpage_text{
@@ -178,6 +184,7 @@ to {opacity: 1}
 }
 .volunteer_text_body{
     font-size: 1.5em;
+    color: #054f74;
 }
 
 .front_flag_div{
